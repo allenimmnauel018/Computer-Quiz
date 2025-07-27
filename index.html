@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Computer Quiz App</title>
+  <link rel="stylesheet" href="style.css"/>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+
+</head>
+<body>
+  <header>
+    <h1>Computer Quiz</h1>
+  </header>
+
+  <main>
+    <div id="main-box" class="glass">
+      <!-- Initial view: category buttons -->
+      <div id="category-screen">
+        <h2>Select Difficulty</h2>
+        <div id="category-buttons">
+          <button onclick="startQuiz('easy')">Easy</button>
+          <button onclick="startQuiz('medium')">Medium</button>
+          <button onclick="startQuiz('hard')">Hard</button>
+          <button onclick="startQuiz('random')">Random</button>
+        </div>
+      </div>
+
+      <!-- Quiz view -->
+      <div id="quiz-screen" class="hidden"></div>
+
+      <!-- Result view -->
+      <div id="result-screen" class="hidden">
+        <h2>Your Score: <span id="score"></span>/10</h2>
+        <p id="quote"></p>
+        <button onclick="retryQuiz()">🔁 Retry</button>
+      </div>
+    </div>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
