@@ -55,9 +55,9 @@ This project is a responsive and interactive web-based quiz application created 
 
 ---
 
-## 📸 Screenshots (Optional)
+## 📸 Demo
 
-![Screenshot](./screenshot.png) 
+![demo](./demo.mp4) 
 ---
 
 ## 👤 Author
