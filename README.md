@@ -55,11 +55,6 @@ This project is a responsive and interactive web-based quiz application created 
 
 ---
 
-## 📸 Demo
-
-![demo](./demo.mp4) 
----
-
 ## 👤 Author
 
 **Made with 💙 by Jenish Allen Immanuel J**
